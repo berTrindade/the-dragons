@@ -1,0 +1,36 @@
+.login-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container form {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 32px; 
+}
+
+.login-container form a {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity .2s;
+}
+
+.login-container form a:hover {
+    opacity: .8;
+}
+
+.login-container form a svg {
+    margin-right: 8px;
+}
